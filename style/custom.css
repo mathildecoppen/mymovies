@@ -1,0 +1,119 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+   .logo {
+    margin-left: 7%;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 110px;
+    font-size: 20px;
+    padding: 10px;
+    border: blue solid 4px;
+    font-weight: 600;
+    margin-top: -120px;
+    position: relative;
+}
+
+
+.img-fluid {
+    width:100%;
+    margin-top: -50px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.25)
+}
+h1 {
+    margin-left: 20px;
+    color: blue;
+    font-size: 70px;
+    position: relative;
+}
+
+h2 {
+    color: blue;
+}
+
+
+.title {
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+}
+
+.text {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.underline {
+    border-bottom: blue solid 2px;
+    width: 50px;
+    margin-top: -5px;
+}
+.info {
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-align: end;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: blue;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+    float: right;
+}
+.text_button {
+    padding: 10px;
+}
+
+.footer {
+    background-color: blue;  
+}
+
+.artevelde {
+    max-height: 70px;
+    max-width: 70px;
+    margin-left: 7%;
+}
+
+.footertxt {
+    display: inline;
+    color: white;
+}
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+.logo {
+    border: blue solid 4px;
+    width: 180px;
+    height: 220px;
+    font-size: 40px;
+}
+
+}
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
